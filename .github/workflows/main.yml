@@ -1,0 +1,16 @@
+name: run-program
+on: push
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-step1
+        run: |
+          echo "gm"
+          echo "gn"
+        
+  # job2:
+  #   runs on: ubuntu-latest
+  #   steps:
+  #     - name: step2
+  #       run: echo "success job2"
